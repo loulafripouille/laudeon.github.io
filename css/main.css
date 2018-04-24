@@ -107,7 +107,7 @@ a.tooltip:hover::before {
   top: -2.5rem;
 }
 
-section.social ul {
+aside.social ul {
   width: 50vw;
   margin: 10vh auto 4rem auto;
   padding: 0;
@@ -117,21 +117,21 @@ section.social ul {
   justify-content: center;
 }
 
-section.social ul li {
+aside.social ul li {
   margin: 0 10%;
   position: relative;
 }
 
-section.social ul li a {
+aside.social ul li a {
   color: #121212;
   transition: color .2s;
 }
 
-section.social ul li a:hover {
+aside.social ul li a:hover {
   color: #F44336;
 }
 
-section.social ul li .feather {
+aside.social ul li .feather {
   width: 48px;
   height: 48px;
   stroke-width: 1;
@@ -149,11 +149,11 @@ section.social ul li .feather {
     margin: 2rem 0 0 0;
     font-size: 1.5rem;
   }
-  section.social ul li .feather {
+  aside.social ul li .feather {
     width: 32px;
     height: 32px;
   }
-  section.social ul {
+  aside.social ul {
     margin: 3rem auto 2rem auto;
   }
 }
