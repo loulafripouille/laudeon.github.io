@@ -139,12 +139,12 @@ aside.social ul li .feather {
 }
 
 @media only screen and (max-width: 540px) {
-  h1 {
+  main > h1 {
     max-width: 80vw;
     margin: 2rem 0 0 0;
     font-size: 2.5rem;
   }
-  p {
+  main > p {
     border: none;
     padding: 0;
     margin: 2rem 0 0 0;
@@ -160,12 +160,12 @@ aside.social ul li .feather {
 }
 
 @media only screen and (max-width: 860px) and (min-width: 541px) {
-  h1 {
+  main > h1 {
     max-width: 80vw;
     margin: 4rem 0 0 0;
     font-size: 3rem;
   }
-  p {
+  main > p {
     font-size: 2rem;
   }
 }
